@@ -1,223 +1,878 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" href="resources/images/icon@2x.png"/>
-    <link rel="apple-touch-startup-image" href="resources/images/splash.png" />
+  <!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="apple-touch-icon" href="resources/images/icon@2x.png"/>
+      <link rel="apple-touch-startup-image" href="resources/images/splash.png" />
 
-    <title>#RadarCultural</title>
+      <title>#RadarCultural</title>
 
-    <link rel="stylesheet" href="assets/css/kinout-1.0.css">
-    <link rel="stylesheet" href="assets/css/theme.kinout.css">
-    <link href="assets/javascript/rainbow/themes/blackboard.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/radar.css">
-</head>
+      <link rel="stylesheet" href="assets/css/kinout-1.0.css">
+      <link rel="stylesheet" href="assets/css/theme.kinout.css">
+      <link href="assets/javascript/rainbow/themes/blackboard.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="assets/css/radar.css">
+  </head>
 
-<body>
+  <body>
     <div class="kinout">
 
-        <section>
-            <article>
-                <h1>#Radar<mark>Cultural</mark></h1>
-                <h4><mark>Una agenda cultural, hecha por todxs.</mark></h4>
-            </article>
+      <!-- Momento 0 - Portada -->
+      <section>
+        <article>
+          <h1>#Radar<mark>Cultural</mark></h1>
+          <h4><mark>Una agenda cultural, hecha por todxs.</mark></h4>
+        </article>
+      </section>
+
+      <!-- Momento 1 - Presentación -->
+      <section>
+        <article>
+          <header class="box">
+            <h2>Presentación</h2>
+            <h4><mark>¿quienes somos?</mark></h4>
+          </header>
+          <div>
+            <ul>
+              <li data-step="move alternate">¿Qué hacemos acá?</li>
+              <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
+              <li data-step="move alternate">venimos a RADEAR!</li>
+              <br>
+              <li data-step="move">Antes de conocer al equipo...</li>
+              <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
+              <li data-step="move alternate">presentamos El jurado</li>
+            </ul>
+          </div>
+          <footer class="box white">
+            <h4></h4>
+          </footer>
+        </article>
+      </section>
+
+      <!-- Momento 2 - El equipo -->
+      <section data-color="red" data-color="image">
+        <article>
+          <header class="box">
+            <h2>Nos presentamos</h2>
+            <h4><mark>el equipo</mark></h4>
+          </header>
+          <div>
+            <ul>
+              <li data-step="zoom"><h3>Cuasi Ingenieros</h3></li>
+              <br />
+              <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/ale.png" class="size_200"/>
+                  <h5><mark>Ale Prieto</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/cele.png" class="size_200"/>
+                  <h5><mark>Cele Weidmann</mark></h5>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <footer class="box white">
+            <h4>... llegó el día.</h2>
+          </footer>
+        </article>
+        <article>
+          <header class="box">
+            <h2>Equipo</h2>
+            <h4><mark>El director</mark></h4>
+          </header>
+          <div>
+            <ul>
+              <li data-step="zoom"><h3></h3></li>
+              <br />
+              <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/raul.jpeg" class="bordered size_200"/>
+                  <h5><mark>Raúl Tschanz</mark></h5>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <footer class="box white">
+            <h2>Quien nos padeció...</h2>
+            <h4>... y nos persiguió.</h2>
+          </footer>
+        </article>
+        <article>
+          <header class="box">
+            <h2>Equipo</h2>
+            <h4><mark>Tras bambalinas</mark></h4>
+          </header>
+          <div>
+            <ul>
+              <li data-step="zoom"><h3>El Cliente</h3></li>
+              <br />
+              <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/tere.jpg" class="bordered size_200"/>
+                  <h5><mark>Tere Sempere</mark></h5>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <footer class="box white">
+            <h2>También nos persiguió...</h2>
+            <h4>... y lo sigue haciendo.</h2>
+          </footer>
+        </article>
+        <article>
+          <header class="box">
+            <h2>Equipo</h2>
+            <h4><mark>Tras bambalinas</mark></h4>
+          </header>
+            <ul>
+              <li data-step="zoom"><h3>La diseñadora</h3></li>
+              <br />
+              <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/juli-2.jpg" class="bordered size_200"/>
+                  <h5><mark>Juli Weidmann</mark></h5>
+                </span>
+              </li>
+            </ul>
+          <footer class="box white">
+            <h2>hace que se vea lindo...</h2>
+            <h4>... muy lindo.</h2>
+          </footer>
+        </article>
+      </section>
+
+      <!-- Minuto 3 - Historia -->
+      <section data-color="red" data-color="image">
+        <article>
+          <header class="box">
+            <h2>LA historia</h2>
+            <h4><mark>del radar</mark></h4>
+          </header>
+          <div>
+
+          <ul>
+              <li data-step="boom">contada en actos...</li>
+          </ul>
+
+          </div>
+          <footer class="box white">
+            <h4>... que detecta movimiento cultural.</h2>
+          </footer>
+        </article>
+        <article>
+          <header class="box">
+            <h2>Primer acto</h2>
+            <h4><mark>Ale va al teatro</mark></h4>
+          </header>
+          <div>
+            <ul>
+              <li data-step="boom">
+                <img src="assets/image/cl2.png" class="bordered size_200"/>
+              </li>
+              <br />
+            </ul>
+          </div>
+          <footer class="box white">
+            <h4>... que detecta movimiento cultural.</h2>
+          </footer>
+        </article>
+        <article>
+          <header class="box">
+            <h2>Segundo acto</h2>
+            <h4><mark>Ale va al cine</mark></h4>
+          </header>
+          <ul>
+            <li data-step="boom"><mark>Python </mark> vi luz y entré</li>
+            <li data-step="boom">
+              <img src="assets/image/python-code.png" class="size_200"/>
+            </li>
+            <li data-step="boom">
+              <img src="assets/image/cineclub-1.jpg" class="size_200"/>
+            </li>
+          </ul>
+            <footer class="box white">
+              <h4>... también son parte de esto.</h2>
+            </footer>
+        </article>
+        <article>
+          <div class="background-monty">
+            <header class="box">
+              <h2>Nada que ver con programación</h2>
+              <h4><mark>Los Monty Python</mark></h4>
+            </header>
+            <footer class="box white">
+              <h4>... ellos también tienen la culpa.</h2>
+            </footer>
+          </div>
+        </article>
+
+        <article>
+          <header class="box">
+            <img src="assets/image/cine-america-6.png" class="header-cine">
+          </header>
+        </article>
+      </section>
+
+      <!-- Momento 4 - Como arrancó el Radar -->
+      <!-- La tere venía trabajando con Radar-->
+      <section data-color="red" data-color="image">
+        <article>
+          <header class="box">
+            <h4>De cómo se conoció el equipo...</h4>
+          </header>
+          <div>
+            <ul>
+              <li data-step="move">Conectividad</li>
+              <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
+              <li data-step="move alternate">el Software Libre</li>
+              <li data-step="move alternate">la Cultura Libre</li>
+            </ul>
+
+          </div>
+          <footer class="box white">
+            <h4>... pelando cables.</h4>
+          </footer>
+        </article>
+        <article>
+          <div class="background-colectivo">
+            <header class="box">
+              <h2>La Cooperativa</h2>
+            </header>
+            <div>
+              <ul class="colectivo">
+                <li data-step="zoom">3 años de trabajo</li>
+                <li data-step="zoom">mucho aprendizaje</li>
+                <li data-step="zoom">proyectos divertidos</li>
+                <li data-step="zoom">amigos</li>
+                <li data-step="zoom">elección de vida</li>
+                <li data-step="zoom">muchas jornadas</li>
+                <li data-step="zoom">más de un radar</li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h4>soluciones integrales TICs</h2>
+            </footer>
+          </div>
+
+          </article>
+          <article>
+            <div class="background-jcl-1">
+            </div>
+            <footer class="box white">
+              <h4>Jornada de Cultura Libre</h2>
+            </footer>
+        </article>
+        <article>
+          <div class="background-jcl-3">
+          </div>
+          <footer class="box white">
+            <h4>Jornada de Cultura Libre</h2>
+          </footer>
+        </article>
+        <article>
+            <header class="box">
+              <h2>El contacto</h2>
+              <h4>con el cliente</h4>
+            </header>
+            <div>
+              <ul>
+                <li data-step="zoom"><h3>La tere</h3></li>
+                <br />
+                <li data-step="zoom">
+                  <span class="column small">
+                    <img src="assets/image/tere.jpg" class="bordered size_200"/>
+                  </span>
+                  <span class="column small">
+                    <img src="assets/image/librebus.png" class="size_200"/>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+            </footer>
+          </article>
         </section>
 
-        <!-- Historia -->
-        <section>
+          <!-- Momento 5 [minuto 2] - Como se venía trabajando -->
+          <!-- Los sin techo -->
+          <section data-color="red" data-color="image">
             <article>
+              <header class="box">
+                <h2>radar cultural</h2>
+                <h4><mark>antes de ser radar</mark></h4>
+              </header>
+              <div>
+                <ul>
+                  <li data-step="zoom">
+                    <p> Ushahidi: plataforma que permite mapear información vital en zonas de catástrofe o de conflicto.
+                      Creada en Kenia para recibir denuncias de violencia durante la crisis postelectoral a principios de 2008.
+                    </p>
+
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="background-ushahidi">
                 <header class="box">
-                    <h2>Un poco de historia</h2>
-                    <h4><mark>Que corra la voz</mark></h4>
+                  <h4>mapa de conflictos 2008 - Kenia</h4>
                 </header>
+              </div>
+            </article>
+            <article>
+              <header class="box">
+                <h4>Ushahidi y Kohana</h4>
+              </header>
+              <div>
+                <ul>
+                  <li data-step="fade">
+                    Proyecto iniciado y equipo diverso
+                  </li>
+                  <br>
+                  <li data-step="fade">
+                    <span class="column small">
+                      <img src="assets/image/hackergotchi-elopio.png" class="bordered size_128"/>
+                      <h5><mark>Leo Arias - el servidor</mark></h5>
+                    </span>
+                    <span class="column small">
+                      <img src="assets/image/ivan.jpg" class="bordered size_128"/>
+                      <h5><mark>Iván Qart - los plugins</mark></h5>
+                    </span>
+                    <span class="column small">
+                      <img src="assets/image/taringa.jpg" class="bordered size_128"/>
+                      <h5><mark>Taringa - el dominio</mark></h5>
+                    </span>
+                  </li><br>
+                  <li data-step="fade">
+                      el merge no funcionó...
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </section>
+
+          <!-- Momento 6 [Minuto 3] - Nuestro Proyecto anterior -->
+          <!-- Como funciona Radar -->
+          <section data-color="red" data-color="image">
+
+            <article>
+              <header class="box">
+                <h3>MST</h3>
+                <h4><mark>nuestro proyecto anterior</mark></h4>
+              </header>
+                <div>
+                      <ul>
+                          <li data-step="fade"><p class="text size08">"Sistema de Información de Gestión de Contenidos Educativos Multimedia sobre Redes MAN"<p></li>
+                          <li data-step="fade"><p class="text size07">si, las redes MAN existen</p></li>
+                          <br>
+                          <li data-step="fade">
+                            <img src="assets/image/mapawifi_sin_techo.jpg" class="size_400"/>
+                          </li>
+                          <li class="sin-techo-1" data-step="fade"><p class="text size07">experiencia</p></li>
+                          <li class="sin-techo-2" data-step="fade"><p class="text size07">aprendizaje</p></li>
+                          <li class="sin-techo-3" data-step="fade"><p class="text size07">loops</p></li>
+                          <li class="sin-techo-4" data-step="fade"><p class="text size07">la OVNIdireccional</p></li>
+                          <li class="sin-techo-5" data-step="fade"><p class="text size07">antenas apuntando a ARSAT-1</p></li>
+
+                      </ul>
+                  </div>
+          </article>
+        </section>
+
+        <!-- Momento 7 - un gran merge -->
+        <!-- Radar y MST -->
+        <section data-color="red" data-color="image">
+          <article>
+            <header class="box">
+              <h2></h2>
+              <h4><mark>aceptando el cambio</mark></h4>
+            </header>
+            <div>
+              <ul>
+                <li data-step="zoom"><h3>teníamos...</h3></li>
+                <br />
+                <li data-step="zoom">
+                  <span class="column small">
+                    <img src="assets/image/logo3.png" class="bordered size_128"/>
+                    <h5>RADAR</h5>
+                    <h5><mark>un proyecto sin equipo</mark></h5>
+                  </span>
+                  <span class="column small">
+                    <img src="assets/image/sintecho.jpg" class="bordered size_128"/>
+                    <h5>MST</h5>
+                    <h5><mark>un equipo sin proyecto</mark></h5>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h5>por eso demoramos tanto en recibirnos abuela</h5>
+            </footer>
+          </article>
+        </section>
+
+        <!-- Momento 8 - Momento Nerd -->
+        <!-- MVC en el Servidor y en el Cliente -->
+        <section data-color="red" data-color="image">
+          <article>
+            <div>
+                <ul>
+                  <li>
+                    <h2>Radar Cultural</h2>
+                    <h3>veamos como funciona</h3>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="background-radar-funcionando">
                 <div>
                     <ul>
-                        <li data-step="move alternate">UTN FRSF</li>
-                        <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
-                        <li data-step="move">Colectivo Libre</li>
-                        <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
-                        <li data-step="move alternate">Jornadas Culturales 2011</li>
-                        <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
-                        <li data-step="move">Tere Sempere</li>
-                        <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
-                        <li data-step="move alternate">Ushahidi</li>
-                        <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
-                        <li data-step="move">RadarCultural.com.ar</li>
+                      <li data-step="fade">
+                        <h3>así no.</h3>
+                      </li>
                     </ul>
-                </div>
-                <footer class="box white">
-                    <h4>que la historia nos encontró.</h4>
-                </footer>
+                  </div>
+              </div>
             </article>
-        </section>
-        
-        <!-- Motivaciones -->
-        <section>
             <article>
-                <header class="box">
-                    <h2>Motivaciones</h2>
-                    <h4><mark>¿Por qué un Radar?</mark></h4>
-                </header>
+              <div class="background-radar-eventos-1">
+                <footer class="box">
+                  <h5>Vista de eventos</h5>
+                </footer>
+              </div>
+            </article>
+            <article>
+              <div class="background-radar-eventos-2">
+                <footer class="box">
+                  <h5>Vista detalle de evento</h5>
+                </footer>
+              </div>
+            </article>
+            <article>
+              <div class="background-radar-login">
+                  <footer class="box">
+                    <h5>login de usuario</h5>
+                  </footer>
+              </div>
+            </article>
+            <article>
+              <div class="background-radar-registro">
+                  <footer class="box">
+                    <h5>¿aún no sos parte de Radar?</h5>
+                  </footer>
+              </div>
+            </article>
+            <article>
+              <div class="background-radar-evento-add">
+                  <footer class="box">
+                    <h5>radear eventos</h5>
+                  </footer>
+              </div>
+            </article>
+            <article>
+              <div class="background-radar-espacios-1">
                 <div>
-                    <ul>
-                        <li data-step="boom"><mark>[+]</mark> Ausencia de plataforma interactiva</li>
-                        <br />
-                        <li data-step="boom"><mark>[+]</mark> Barreras para difundir eventos independientes</li>
-                        <br />
-                        <li data-step="boom"><mark>[+]</mark> Democratizar la información</li>
-                        <br />
-                        <li data-step="boom"><mark>[+]</mark> Redes de encuentro horizontal</li>
-                        <br />
-                        <li data-step="boom"><mark>[+]</mark> Trabajo colaborativo</li>
-                        <br />
-                        <li data-step="boom"><mark>[+]</mark> Alcance global</li>
+                    <ul class="colectivo"><br><br>
+                      <li data-step="fade">
+                        <blockquote class="block-radar">
+                          <h5>Espacios</h5>
+                          <p class="text size07">*Listados según categorías seleccionadas</p>
+                          <p class="text size07">*visualizados según recorte del mapa</p>
+                        </blockquote>
+                      </li>
                     </ul>
-                </div>
-
-                <footer class="box white">
-                    <h4>Un radar que detecta movimiento cultural.</h2>
-                </footer>
+                  </div>
+              </div>
             </article>
-        </section>
-        
-        <!-- Equipo de desarrollo con Imágenes -->
-		<section data-color="red" data-color="image">
-			<article>
-				<header class="box">
-                    <h2>Equipo</h2>
-                    <h4><mark>Tras bambalinas</mark></h4>
-                </header>
-				 <div>
-                    <ul>
-                        <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
-                        <br />
-                        <li data-step="zoom">
-							<span class="column small">
-								<img src="assets/image/tere.jpg" class="bordered size_200"/>
-								<h5><mark>Teresa Sempere</mark></h5>
-							</span>
-							<span class="column small">
-								<img src="assets/image/cl2.png" class="bordered size_200"/>
-								<h5><mark>Colectivo Libre</mark></h5>
-							</span>
-						</li>
-                    </ul>
-                </div>
-                <footer class="box white">
-                    <h2>La magia...</h2>
-                    <h4>... hacen que todo se vea lindo.</h2>
-                </footer>
-			</article>
-			<article>
-				<header class="box">
-                    <h2>Equipo</h2>
-                    <h4><mark>Tras bambalinas</mark></h4>
-                </header>
-				 <div>
-                    <ul>
-                        <li data-step="zoom"><h3>Desarrolladores</h3></li>
-                        <br />
-                        <li data-step="zoom">
-							<span class="column small">
-								<img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
-								<h5><mark>Leo Arias</mark></h5>
-							</span>
-							<span class="column small">
-								<img src="assets/image/ivan.jpg" class="bordered size_200"/>
-								<h5><mark>Iván Qart</mark></h5>
-							</span>
-							<span class="column small">
-								<img src="assets/image/cl2.png" class="bordered size_200"/>
-								<h5><mark>Colectivo Libre</mark></h5>
-							</span>
-						</li>
-                    </ul>
-                </div>
-                <footer class="box white">
-                    <h2>Se entienden...</h2>
-                    <h4>... hablan su propio código.</h2>
-                </footer>
-			</article>
-			<article>
-				<header class="box">
-                    <h2>Equipo</h2>
-                    <h4><mark>Tras bambalinas</mark></h4>
-                </header>
-				 <div>
-                    <ul>
-                        <li data-step="zoom"><h3>Colaboradores</h3></li>
-                        <br />
-                        <li data-step="zoom">
-							<span class="column small">
-								<img src="assets/image/taringa.jpg" class="bordered size_200"/>
-								<h5><mark>Taringa</mark></h5>
-							</span>
-							<span class="column small">
-								<img src="assets/image/comunidad.png" class="bordered size_200"/>
-								<h5><mark>CSL</mark></h5>
-							</span>
-						</li>
-                    </ul>
-                </div>
-                <footer class="box white">
-                    <h2>Todos...</h2>
-                    <h4>... somos parte del equipo.</h2>
-                </footer>
-			</article>
-		</section>
-        
-        
-        <!-- Descripción del Proyecto -->
-        <section>
             <article>
-                <header class="box">
-                    <h2>Descripción</h2>
-                    <h4><mark>Manos a la obra</mark></h4>
-                </header>
+              <div class="background-radar-espacios-view">
                 <div>
-                    <ul>
-                        <li data-step="zoom">[ Plataforma Web 2.0 ]</li>
-                        <li data-step="zoom"><mark>[ Software Libre ]</mark></li>
-                        <li data-step="zoom">[ Eventos georreferenciados ]</li>
-                        <li data-step="zoom"><mark>[ Filtros por categoría ]</mark></li>
-                        <li data-step="zoom">[ Promoción de eventos gratuita ]</li>
-                        <li data-step="zoom"><mark>[ Feedback de eventos ]</mark></li>
-                        <li data-step="zoom">[ Verificación de eventos mediante denuncias ]</li>
-                        <li data-step="zoom"><mark>[ Interacción con redes sociales ]</mark></li>
-                        <li data-step="zoom">[ Extensión progresiva del alcance territorial ]</li>
-                        <li data-step="zoom"><mark>[ Banners publicitarios ]</mark></li>
-                    </ul>
-                </div>
-
-                <footer class="box white">
-                    <h2>que la cabeza está pensando...</h2>
-                    <h4>y pies volando.</h2>
-                </footer>
+                  </div>
+              </div>
             </article>
-        </section>
-
-        <section>
-            <article data-size="middle">
-                <blockquote>Estimular la industria cultural es darle a todos los actores las mismas oportunidades, ¿qué mejor forma de hacerlo utilizando una herramienta colaborativa y libre?</blockquote>
-            </article>
-        </section>
-        <section>
             <article>
-				<h1><<mark>/Fin</mark>></h1>
-				<h4>[ Muchas Gracias ]</h4>
+              <div class="background-radar-admin">
+                <div>
+                </div>
+                  <footer class="box">
+                      <h5>menú administrador</h5>
+                  </footer>
+              </div>
             </article>
-        </section>
-    <script src="assets/javascript/QuoJS.js"></script>
-    <script src="assets/javascript//raf.js"></script>
-    <script src="assets/javascript/kinout-1.0.js"></script>
-    <script>
-        $$(document).ready(function() {
-            KINOUT.init();
-        });
-    </script>
-    <script src="assets/javascript/rainbow/rainbow.min.js"></script>
-    <script src="assets/javascript/rainbow/language/generic.js"></script>
-</body>
-</html>
+            <article>
+              <div class="background-radar-espacios-2">
+                <div>
+                </div>
+                  <footer class="box">
+                      <h5>Agregar espacios: usuario administrador</h5>
+                  </footer>
+              </div>
+            </article>
+          </section>
+
+          <!-- Momento 9 - Como lo hicimos -->
+          <!-- MVC en el Servidor y en el Cliente -->
+          <section data-color="red" data-color="image">
+            <article>
+              <header class="box">
+                <h2>¿Como se hizo?</h2>
+              </header>
+                <div>
+                  <ul>
+                    <li data-step="zoom"><h3>el marco de trabajo :: Scrum</h3></li>
+                    <br />
+                    <li data-step="zoom">
+                      </ul>
+                  </div>
+          </article>
+          <article>
+            <header class="box">
+              <h2>Git</h2>
+              <h4><mark>control de versiones</mark></h4>
+            </header>
+           <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
+                          <br />
+                          <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
+                  <h5><mark>Leo Arias</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/ivan.jpg" class="bordered size_200"/>
+                  <h5><mark>Iván Qart</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/cl2.png" class="bordered size_200"/>
+                  <h5><mark>Colectivo Libre</mark></h5>
+                </span>
+              </li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>Se entienden...</h2>
+                      <h4>... hablan su propio código.</h2>
+                  </footer>
+          </article>
+      </section>
+        <!-- Momento 8 - Momento Nerd -->
+        <!-- MVC en el Servidor y en el Cliente -->
+        <section data-color="red" data-color="image">
+            <article>
+              <header class="box">
+                <h2>Momento Nerd</h2>
+                <h4><mark>MVC en Servidor y Cliente</mark></h4>
+              </header>
+                <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
+                          <br />
+                          <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/tere.jpg" class="bordered size_200"/>
+                  <h5><mark>Teresa Sempere</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/cl2.png" class="bordered size_200"/>
+                  <h5><mark>Colectivo Libre</mark></h5>
+                </span>
+              </li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>La magia...</h2>
+                      <h4>... hacen que todo se vea lindo.</h2>
+                  </footer>
+          </article>
+          <article>
+          <header class="box">
+                      <h2>Equipo</h2>
+                      <h4><mark>Tras bambalinas</mark></h4>
+                  </header>
+           <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
+                          <br />
+                          <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
+                  <h5><mark>Leo Arias</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/ivan.jpg" class="bordered size_200"/>
+                  <h5><mark>Iván Qart</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/cl2.png" class="bordered size_200"/>
+                  <h5><mark>Colectivo Libre</mark></h5>
+                </span>
+              </li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>Se entienden...</h2>
+                      <h4>... hablan su propio código.</h2>
+                  </footer>
+          </article>
+      </section>
+
+          <!-- Momento 7 - Como seguimos -->
+          <!-- Premios ganados. Aplicación para celular. -->
+          <!-- Equipo de desarrollo con Imágenes -->
+          <section data-color="red" data-color="image">
+            <article>
+              <header class="box">
+                <h2>Como Seguimos...</h2>
+                <h4><mark>Tras bambalinas</mark></h4>
+              </header>
+                <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
+                          <br />
+                          <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/tere.jpg" class="bordered size_200"/>
+                  <h5><mark>Teresa Sempere</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/cl2.png" class="bordered size_200"/>
+                  <h5><mark>Colectivo Libre</mark></h5>
+                </span>
+              </li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>La magia...</h2>
+                      <h4>... hacen que todo se vea lindo.</h2>
+                  </footer>
+          </article>
+          <article>
+          <header class="box">
+                      <h2>Equipo</h2>
+                      <h4><mark>Tras bambalinas</mark></h4>
+                  </header>
+           <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
+                          <br />
+                          <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
+                  <h5><mark>Leo Arias</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/ivan.jpg" class="bordered size_200"/>
+                  <h5><mark>Iván Qart</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/cl2.png" class="bordered size_200"/>
+                  <h5><mark>Colectivo Libre</mark></h5>
+                </span>
+              </li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>Se entienden...</h2>
+                      <h4>... hablan su propio código.</h2>
+                  </footer>
+          </article>
+          <article>
+          <header class="box">
+                      <h2>Equipo</h2>
+                      <h4><mark>Tras bambalinas</mark></h4>
+                  </header>
+           <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Colaboradores</h3></li>
+                          <br />
+                          <li data-step="zoom">
+                <span class="column small">
+                  <img src="assets/image/taringa.jpg" class="bordered size_200"/>
+                  <h5><mark>Taringa</mark></h5>
+                </span>
+                <span class="column small">
+                  <img src="assets/image/comunidad.png" class="bordered size_200"/>
+                  <h5><mark>CSL</mark></h5>
+                </span>
+              </li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>Todos...</h2>
+                      <h4>... somos parte del equipo.</h2>
+                  </footer>
+          </article>
+          </section>
+
+          <!-- Motivaciones -->
+          <section>
+              <article>
+                  <header class="box">
+                      <h2>Motivaciones</h2>
+                      <h4><mark>¿Por qué un Radar?</mark></h4>
+                  </header>
+                  <div>
+                      <ul>
+                          <li data-step="boom"><mark>[+]</mark> Ausencia de plataforma interactiva</li>
+                          <br />
+                          <li data-step="boom"><mark>[+]</mark> Barreras para difundir eventos independientes</li>
+                          <br />
+                          <li data-step="boom"><mark>[+]</mark> Democratizar la información</li>
+                          <br />
+                          <li data-step="boom"><mark>[+]</mark> Redes de encuentro horizontal</li>
+                          <br />
+                          <li data-step="boom"><mark>[+]</mark> Trabajo colaborativo</li>
+                          <br />
+                          <li data-step="boom"><mark>[+]</mark> Alcance global</li>
+                      </ul>
+                  </div>
+
+                  <footer class="box white">
+                      <h4>Un radar que detecta movimiento cultural.</h2>
+                  </footer>
+              </article>
+          </section>
+
+          <!-- Equipo de desarrollo con Imágenes -->
+  		<section data-color="red" data-color="image">
+  			<article>
+  				<header class="box">
+                      <h2>Equipo</h2>
+                      <h4><mark>Tras bambalinas</mark></h4>
+                  </header>
+  				 <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
+                          <br />
+                          <li data-step="zoom">
+  							<span class="column small">
+  								<img src="assets/image/tere.jpg" class="bordered size_200"/>
+  								<h5><mark>Teresa Sempere</mark></h5>
+  							</span>
+  							<span class="column small">
+  								<img src="assets/image/cl2.png" class="bordered size_200"/>
+  								<h5><mark>Colectivo Libre</mark></h5>
+  							</span>
+  						</li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>La magia...</h2>
+                      <h4>... hacen que todo se vea lindo.</h2>
+                  </footer>
+  			</article>
+  			<article>
+  				<header class="box">
+                      <h2>Equipo</h2>
+                      <h4><mark>Tras bambalinas</mark></h4>
+                  </header>
+  				 <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
+                          <br />
+                          <li data-step="zoom">
+  							<span class="column small">
+  								<img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
+  								<h5><mark>Leo Arias</mark></h5>
+  							</span>
+  							<span class="column small">
+  								<img src="assets/image/ivan.jpg" class="bordered size_200"/>
+  								<h5><mark>Iván Qart</mark></h5>
+  							</span>
+  							<span class="column small">
+  								<img src="assets/image/cl2.png" class="bordered size_200"/>
+  								<h5><mark>Colectivo Libre</mark></h5>
+  							</span>
+  						</li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>Se entienden...</h2>
+                      <h4>... hablan su propio código.</h2>
+                  </footer>
+  			</article>
+  			<article>
+  				<header class="box">
+                      <h2>Equipo</h2>
+                      <h4><mark>Tras bambalinas</mark></h4>
+                  </header>
+  				 <div>
+                      <ul>
+                          <li data-step="zoom"><h3>Colaboradores</h3></li>
+                          <br />
+                          <li data-step="zoom">
+  							<span class="column small">
+  								<img src="assets/image/taringa.jpg" class="bordered size_200"/>
+  								<h5><mark>Taringa</mark></h5>
+  							</span>
+  							<span class="column small">
+  								<img src="assets/image/comunidad.png" class="bordered size_200"/>
+  								<h5><mark>CSL</mark></h5>
+  							</span>
+  						</li>
+                      </ul>
+                  </div>
+                  <footer class="box white">
+                      <h2>Todos...</h2>
+                      <h4>... somos parte del equipo.</h2>
+                  </footer>
+  			</article>
+  		</section>
+
+
+          <!-- Descripción del Proyecto -->
+          <section>
+              <article>
+                  <header class="box">
+                      <h2>Descripción</h2>
+                      <h4><mark>Manos a la obra</mark></h4>
+                  </header>
+                  <div>
+                      <ul>
+                          <li data-step="zoom">[ Plataforma Web 2.0 ]</li>
+                          <li data-step="zoom"><mark>[ Software Libre ]</mark></li>
+                          <li data-step="zoom">[ Eventos georreferenciados ]</li>
+                          <li data-step="zoom"><mark>[ Filtros por categoría ]</mark></li>
+                          <li data-step="zoom">[ Promoción de eventos gratuita ]</li>
+                          <li data-step="zoom"><mark>[ Feedback de eventos ]</mark></li>
+                          <li data-step="zoom">[ Verificación de eventos mediante denuncias ]</li>
+                          <li data-step="zoom"><mark>[ Interacción con redes sociales ]</mark></li>
+                          <li data-step="zoom">[ Extensión progresiva del alcance territorial ]</li>
+                          <li data-step="zoom"><mark>[ Banners publicitarios ]</mark></li>
+                      </ul>
+                  </div>
+
+                  <footer class="box white">
+                      <h2>que la cabeza está pensando...</h2>
+                      <h4>y pies volando.</h2>
+                  </footer>
+              </article>
+          </section>
+
+          <section>
+              <article data-size="middle">
+                  <blockquote>Estimular la industria cultural es darle a todos los actores las mismas oportunidades, ¿qué mejor forma de hacerlo utilizando una herramienta colaborativa y libre?</blockquote>
+              </article>
+          </section>
+          <section>
+              <article>
+  				<h1><<mark>/Fin</mark>></h1>
+  				<h4>[ Muchas Gracias ]</h4>
+              </article>
+          </section>
+      <script src="assets/javascript/QuoJS.js"></script>
+      <script src="assets/javascript//raf.js"></script>
+      <script src="assets/javascript/kinout-1.0.js"></script>
+      <script>
+          $$(document).ready(function() {
+              KINOUT.init();
+          });
+      </script>
+      <script src="assets/javascript/rainbow/rainbow.min.js"></script>
+      <script src="assets/javascript/rainbow/language/generic.js"></script>
+  </body>
+  </html>
