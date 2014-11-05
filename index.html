@@ -44,9 +44,6 @@
               <li data-step="move alternate">presentamos El jurado</li>
             </ul>
           </div>
-          <footer class="box white">
-            <h4></h4>
-          </footer>
         </article>
       </section>
 
@@ -59,7 +56,7 @@
           </header>
           <div>
             <ul>
-              <li data-step="zoom"><h3>Cuasi Ingenieros</h3></li>
+              <li data-step="zoom"><h3>Casi Ingenieros</h3></li>
               <br />
               <li data-step="zoom">
                 <span class="column small">
@@ -80,11 +77,11 @@
         <article>
           <header class="box">
             <h2>Equipo</h2>
-            <h4><mark>El director</mark></h4>
+            <h4><mark>Tras bambalinas</mark></h4>
           </header>
           <div>
             <ul>
-              <li data-step="zoom"><h3></h3></li>
+              <li data-step="zoom"><h3>El Director</h3></li>
               <br />
               <li data-step="zoom">
                 <span class="column small">
@@ -130,7 +127,7 @@
               <li data-step="zoom"><h3>La diseñadora</h3></li>
               <br />
               <li data-step="zoom">
-                <span class="column small">
+                <span class="column">
                   <img src="assets/image/juli-2.jpg" class="bordered size_200"/>
                   <h5><mark>Juli Weidmann</mark></h5>
                 </span>
@@ -147,13 +144,15 @@
       <section data-color="red" data-color="image">
         <article>
           <header class="box">
-            <h2>LA historia</h2>
+            <h2>La historia</h2>
             <h4><mark>del radar</mark></h4>
           </header>
           <div>
 
           <ul>
-              <li data-step="boom">contada en actos...</li>
+            <span>
+              <li data-step="boom"><h4>contada en actos...</h4></li>
+            </span>
           </ul>
 
           </div>
@@ -162,39 +161,55 @@
           </footer>
         </article>
         <article>
-          <header class="box">
-            <h2>Primer acto</h2>
-            <h4><mark>Ale va al teatro</mark></h4>
-          </header>
-          <div>
-            <ul>
-              <li data-step="boom">
-                <img src="assets/image/cl2.png" class="bordered size_200"/>
-              </li>
-              <br />
-            </ul>
+          <div class="background-teatro">
+            <header class="box">
+              <h2>Primer acto</h2>
+            </header>
+            <div>
+              <ul><br>
+                <li data-step="fade">
+                  <span >
+                  <h4 class="block-radar">Ale va al teatro</h4>
+                </span>
+                </li><br>
+                <li data-step="fade">
+                  <h4  class="box">#fail</h4>
+                </li>
+              </ul>
+
+            </div>
+            <footer class="box">
+              <h5><mark>...en su tiempo libre.</mark></h5>
+            </footer>
           </div>
-          <footer class="box white">
-            <h4>... que detecta movimiento cultural.</h2>
-          </footer>
         </article>
         <article>
-          <header class="box">
-            <h2>Segundo acto</h2>
-            <h4><mark>Ale va al cine</mark></h4>
-          </header>
-          <ul>
-            <li data-step="boom"><mark>Python </mark> vi luz y entré</li>
-            <li data-step="boom">
-              <img src="assets/image/python-code.png" class="size_200"/>
-            </li>
-            <li data-step="boom">
-              <img src="assets/image/cineclub-1.jpg" class="size_200"/>
-            </li>
-          </ul>
+          <div class="background-cine">
+            <header class="box">
+              <h2>Segundo acto</h2>
+            </header>
+            <div>
+              <ul><br>
+                <li data-step="fade">
+                  <span>
+                    <h4 class="block-radar">Ale va al cine</h4>
+                  </span>
+                </li>
+                <br />
+                <li data-step="fade">
+                  <span class="column small">
+                    <img src="assets/image/affiche.jpg" class="size_200"/>
+                  </span>
+                  <span class="column small">
+                    <img src="assets/image/python-code.png" class="size_200"/>
+                  </span>
+                </li>
+              </ul>
+            </div>
             <footer class="box white">
-              <h4>... también son parte de esto.</h2>
+              <h5>...también en su tiempo libre...</h5>
             </footer>
+          </div>
         </article>
         <article>
           <div class="background-monty">
@@ -212,6 +227,15 @@
           <header class="box">
             <img src="assets/image/cine-america-6.png" class="header-cine">
           </header>
+          <div>
+            <ul>
+              <li data-step="fade">
+                <span class="column">
+                  <img src="assets/image/cineclub-web.png"/>
+                </span>
+              </li>
+            </ul>
+          </div>
         </article>
       </section>
 
@@ -224,10 +248,15 @@
           </header>
           <div>
             <ul>
-              <li data-step="move">Conectividad</li>
+              <li data-step="fade">Conectividad</li>
               <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
-              <li data-step="move alternate">el Software Libre</li>
-              <li data-step="move alternate">la Cultura Libre</li>
+              <li data-step="fade">Investigaciones</li>
+              <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
+              <li data-step="fade">el Software Libre</li>
+              <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
+              <li data-step="fade">la Cultura Libre</li>
+              <li data-step="fade" class="flecha"><img src="assets/image/old-go-down.png" class="flecha" /></li>
+              <li data-step="fade">la cooperativa</li>
             </ul>
 
           </div>
@@ -241,14 +270,13 @@
               <h2>La Cooperativa</h2>
             </header>
             <div>
-              <ul class="colectivo">
-                <li data-step="zoom">3 años de trabajo</li>
-                <li data-step="zoom">mucho aprendizaje</li>
-                <li data-step="zoom">proyectos divertidos</li>
-                <li data-step="zoom">amigos</li>
-                <li data-step="zoom">elección de vida</li>
-                <li data-step="zoom">muchas jornadas</li>
-                <li data-step="zoom">más de un radar</li>
+              <ul class="colectivo" data-step="zoom">
+                <li>3 años de trabajo</li>
+                <li>proyectos divertidos</li>
+                <li>amigos</li>
+                <li>más de un radar</li>
+                <li>muchas jornadas</li>
+                <li>=> la jornada</li>
               </ul>
             </div>
             <footer class="box white">
@@ -281,17 +309,15 @@
                 <li data-step="zoom"><h3>La tere</h3></li>
                 <br />
                 <li data-step="zoom">
-                  <span class="column small">
+                  <span class="column">
                     <img src="assets/image/tere.jpg" class="bordered size_200"/>
                   </span>
-                  <span class="column small">
+                  <span class="column">
                     <img src="assets/image/librebus.png" class="size_200"/>
                   </span>
                 </li>
               </ul>
             </div>
-            <footer class="box white">
-            </footer>
           </article>
         </section>
 
@@ -305,11 +331,14 @@
               </header>
               <div>
                 <ul>
-                  <li data-step="zoom">
-                    <p> Ushahidi: plataforma que permite mapear información vital en zonas de catástrofe o de conflicto.
-                      Creada en Kenia para recibir denuncias de violencia durante la crisis postelectoral a principios de 2008.
-                    </p>
-
+                  <li data-step="fade">
+                      <img src="assets/image/ushahidi-2.jpg" class=" size_200"/>
+                  </li>
+                  <li data-step="fade">
+                    <p class="text size08">plataforma para mapear información vital en zonas de catástrofe o de conflicto.<br>
+                      Creada en Kenia para recibir denuncias de violencia durante la crisis postelectoral de 2008.
+                    </p><br>
+                    <p class="text size08">Ushahidi ("testimonio" o "testigo" en swahili). swahili lengua africana</p>
                   </li>
                 </ul>
               </div>
@@ -503,6 +532,15 @@
               </div>
             </article>
             <article>
+              <div class="background-radar-usuarios">
+                <div>
+                </div>
+                  <footer class="box">
+                      <h5>menú administrador</h5>
+                  </footer>
+              </div>
+            </article>
+            <article>
               <div class="background-radar-espacios-2">
                 <div>
                 </div>
@@ -524,101 +562,189 @@
                   <ul>
                     <li data-step="zoom"><h3>el marco de trabajo :: Scrum</h3></li>
                     <br />
-                    <li data-step="zoom">
-                      </ul>
-                  </div>
+                    <li><p data-step="fade"><mark>[+]</mark> cliente in-situ <b data-step="fade">virtual</b></p></li>
+                    <li data-step="fade"><mark>[+] Roles:</mark> Product Owner=Tere, Scrum Master=Ale, desarrollo=Ale y Cele</li>
+                    <li data-step="fade"><mark>[+] Reuniones:</mark> diarias, semanales, mensuales (on line)</li>
+                    <li data-step="fade"><mark>[+] Documentos:</mark> Product Backlog, Sprint Backlog</li>
+                  </ul>
+                </div>
+                <footer>
+                </footer>
+          </article>
+          <article>
+            <header class="box">
+              <h2>Trello</h2>
+              <h4><mark>Administrador de tareas</mark></h4>
+            </header>
+            <div>
+              <ul>
+                <li data-step="fade">
+                  <span class="column">
+                    <img src="assets/image/trello1.png" class="bordered size_400"/>
+                  </span>
+                </li>
+              </ul>
+              <ul class="lateral-derecha">
+
+                <li data-step="fade" >
+                  <h5>herramienta compartida <br>por todo el equipo</h5>
+                </li><br>
+              <li data-step="fade" >
+                <h5>cualquiera puede <br>agregar sugerencias,<br> propuestas y notas</h5>
+              </li>
+            </ul>
+            </div>
+          </article>
+          <article>
+            <header class="box">
+              <h2>Trello</h2>
+              <h4><mark>Administrador de tareas</mark></h4>
+            </header>
+            <div>
+              <ul>
+                <li data-step="fade">
+                  <span class="column">
+                    <img src="assets/image/trello2.png" class="bordered size_400"/>
+                  </span>
+                </li>
+              </ul>
+              <ul class="lateral-izquierda">
+                <li data-step="fade" >
+                  <h5>H13, H11, H25 <br>historias de cliente</h5>
+                </li><br>
+              <li data-step="fade" >
+                <h5>T30, T28, T47<br>tareas de cada historia</h5>
+              </li>
+            </ul>
+            </div>
           </article>
           <article>
             <header class="box">
               <h2>Git</h2>
               <h4><mark>control de versiones</mark></h4>
             </header>
-           <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
-                          <br />
-                          <li data-step="zoom">
-                <span class="column small">
-                  <img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
-                  <h5><mark>Leo Arias</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/ivan.jpg" class="bordered size_200"/>
-                  <h5><mark>Iván Qart</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/cl2.png" class="bordered size_200"/>
-                  <h5><mark>Colectivo Libre</mark></h5>
-                </span>
-              </li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>Se entienden...</h2>
-                      <h4>... hablan su propio código.</h2>
-                  </footer>
+            <div>
+              <ul>
+                <li data-step="zoom"><h4>git y github</h4></li><br>
+                <li data-step="zoom">
+                  <span class="column small">
+                    <img src="assets/image/git-aleprieto.png" class=""/>
+                    <h5><mark>el proyecto</mark></h5>
+                  </span>
+                  <span class="column small">
+                    <img src="assets/image/git-celeweidmann.png" class=""/>
+                    <h5><mark>la presentación</mark></h5>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h5>git commit -m "se terminó"</h5>
+            </footer>
           </article>
       </section>
+
         <!-- Momento 8 - Momento Nerd -->
         <!-- MVC en el Servidor y en el Cliente -->
         <section data-color="red" data-color="image">
-            <article>
-              <header class="box">
-                <h2>Momento Nerd</h2>
-                <h4><mark>MVC en Servidor y Cliente</mark></h4>
-              </header>
-                <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
-                          <br />
-                          <li data-step="zoom">
-                <span class="column small">
-                  <img src="assets/image/tere.jpg" class="bordered size_200"/>
-                  <h5><mark>Teresa Sempere</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/cl2.png" class="bordered size_200"/>
-                  <h5><mark>Colectivo Libre</mark></h5>
-                </span>
-              </li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>La magia...</h2>
-                      <h4>... hacen que todo se vea lindo.</h2>
-                  </footer>
+          <article>
+            <header class="box">
+              <h2>Momento Nerd</h2>
+              <h4><mark>tecnologías</mark></h4>
+            </header>
+            <div>
+              <ul>
+                <li data-step="zoom"><h4>la base del proyecto</h4></li>
+                <br />
+                <li data-step="zoom">
+                  <span class="column small">
+                    <img src="assets/image/apache_server_1.jpg" class="bordered size_200"/>
+                    <h5><mark>Apache</mark></h5>
+                  </span>
+                  <span class="column small">
+                    <img src="assets/image/php-3.jpeg" class="bordered size_200"/>
+                    <h5><mark>PHP</mark></h5>
+                  </span>
+                  <span class="column small">
+                    <img src="assets/image/mysql-2.jpg" class="bordered size_200"/>
+                    <h5><mark>MySQL</mark></h5>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h5>en un vps propio</h5>
+            </footer>
           </article>
           <article>
-          <header class="box">
-                      <h2>Equipo</h2>
-                      <h4><mark>Tras bambalinas</mark></h4>
-                  </header>
-           <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
-                          <br />
-                          <li data-step="zoom">
-                <span class="column small">
-                  <img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
-                  <h5><mark>Leo Arias</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/ivan.jpg" class="bordered size_200"/>
-                  <h5><mark>Iván Qart</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/cl2.png" class="bordered size_200"/>
-                  <h5><mark>Colectivo Libre</mark></h5>
+            <header class="box">
+              <h2>MVC</h2>
+              <h4><mark>en todas partes</mark></h4>
+            </header>
+            <div>
+            <ul class="lateral-izquierda" data-step="fade">
+              <li>MVC en el Servidor</li>
+              <li>
+                <span class="column">
+                  <img data-step="fade" src="assets/image/cakephp.png" class="size_128"/>
                 </span>
               </li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>Se entienden...</h2>
-                      <h4>... hablan su propio código.</h2>
-                  </footer>
+              <li data-step="fade">
+                <ul>
+                  <li>Framework PHP</li>
+                  <li>procesamiento en el servidor</li>
+                </ul>
+              </li>
+            </ul>
+              <ul class="lateral-derecha" data-step="fade">
+                <li>MVC en el Cliente</li>
+                <li>
+                  <span class="column">
+                    <img data-step="fade" src="assets/image/pic_angular.png" class="size_128"/>
+                  </span>
+                </li>
+                <li data-step="fade">
+                  <ul>
+                    <li>Framework javascript</li>
+                    <li>procesamiento en el cliente</li>
+                    <li>menos peticiones de red</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h5>mvc = modelo - vista - controlador</h5>
+            </footer>
           </article>
-      </section>
+          <article>
+            <header class="box">
+              <h2>las APIs</h2>
+              <h5><mark>con las que se relaciona radar</mark></h5>
+            </header>
+              <div>
+                <ul data-step="fade" class="lateral-izquierda">
+                  <li>
+                    <span class="column">
+                      <img data-step="fade" src="assets/image/in-api-we-trust.png" class="size_400"/>
+                    </span>
+                  </li>
+                </ul>
+                <ul data-step="fade" class="lateral-derecha">
+                  <li>API de google</li>
+                  <li>API de facebook</li>
+                  <li>API de twitter</li>
+                </ul>
+                <ul data-step="fade">
+                  <li>
+                  <li>nuestra propia API</li></li>
+                </ul>
+              </div>
+            <footer class="box white">
+              <h5>api = Application Programming Interface</h5>
+            </footer>
+
+          </article>
+        </section>
 
           <!-- Momento 7 - Como seguimos -->
           <!-- Premios ganados. Aplicación para celular. -->
@@ -627,241 +753,93 @@
             <article>
               <header class="box">
                 <h2>Como Seguimos...</h2>
-                <h4><mark>Tras bambalinas</mark></h4>
+                <h4><mark>El radar</mark></h4>
               </header>
                 <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
-                          <br />
-                          <li data-step="zoom">
-                <span class="column small">
-                  <img src="assets/image/tere.jpg" class="bordered size_200"/>
-                  <h5><mark>Teresa Sempere</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/cl2.png" class="bordered size_200"/>
-                  <h5><mark>Colectivo Libre</mark></h5>
-                </span>
-              </li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>La magia...</h2>
-                      <h4>... hacen que todo se vea lindo.</h2>
-                  </footer>
+                  <ul>
+                    <li data-step="zoom"><h3>¿como se financió?</h3></li>
+                    <br />
+                    <li data-step="zoom">
+                      <span class="column small">
+                        <img src="assets/image/espacio-santafesino.png" class="bordered size_200"/>
+                        <h5><mark>Espacio Santafesino</mark></h5>
+                      </span>
+                      <span class="column small">
+                        <img src="assets/image/semilla_2.jpg" class="bordered size_200"/>
+                        <h5><mark>Capital Semilla</mark></h5>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <footer class="box white">
+                  <h5>porque esto no para...</h5>
+                </footer>
           </article>
           <article>
-          <header class="box">
-                      <h2>Equipo</h2>
-                      <h4><mark>Tras bambalinas</mark></h4>
-                  </header>
-           <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
-                          <br />
-                          <li data-step="zoom">
-                <span class="column small">
-                  <img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
-                  <h5><mark>Leo Arias</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/ivan.jpg" class="bordered size_200"/>
-                  <h5><mark>Iván Qart</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/cl2.png" class="bordered size_200"/>
-                  <h5><mark>Colectivo Libre</mark></h5>
-                </span>
-              </li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>Se entienden...</h2>
-                      <h4>... hablan su propio código.</h2>
-                  </footer>
+            <header class="box">
+              <h2>¿Cómo seguimos?</h2>
+              <h4><mark>el Radar</mark></h4>
+            </header>
+            <div>
+              <ul class="lateral-izquierda">
+                <li data-step="fade"><h3>lo que falta</h3></li>
+                <li data-step="fade">
+                  <img src="assets/image/volver-al-futuro-1.jpg"/><br>
+                  si, todavía falta...
+                </li>
+              </ul>
+              <ul class="lateral-derecha">
+
+                <br />
+                <li data-step="zoom">
+                  <span class="column">
+                    <h5>aplicación Android</h5>
+                  </span>
+                </li>
+                <li data-step="zoom">
+                  <span class="column">
+                    <h5>Gestión de Auspiciantes</h5>
+                  </span>
+                </li><li data-step="zoom">
+                  <span class="column">
+                    <h5>Difusión</h5>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h5>lo que viene, lo que viene</h5>
+            </footer>
           </article>
           <article>
-          <header class="box">
-                      <h2>Equipo</h2>
-                      <h4><mark>Tras bambalinas</mark></h4>
-                  </header>
-           <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Colaboradores</h3></li>
-                          <br />
-                          <li data-step="zoom">
-                <span class="column small">
-                  <img src="assets/image/taringa.jpg" class="bordered size_200"/>
-                  <h5><mark>Taringa</mark></h5>
-                </span>
-                <span class="column small">
-                  <img src="assets/image/comunidad.png" class="bordered size_200"/>
-                  <h5><mark>CSL</mark></h5>
-                </span>
-              </li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>Todos...</h2>
-                      <h4>... somos parte del equipo.</h2>
-                  </footer>
+            <header class="box">
+              <h2>¿Cómo seguimos?</h2>
+              <h4><mark>nosotros...</mark></h4>
+            </header>
+            <div>
+              <ul>
+                <li> <h3 data-step="zoom">relajados</h3><h3 data-step="zoom">muy relajados</h3></li>
+                <br />
+                <li data-step="fade">
+                    <h5><mark>un peso menos en la mochila de la vida</mark></h5>
+                </li>
+                <li data-step="fade">
+                  <span class="column">
+                    <h5><mark>con una pregunta menos los domingos</mark></h5>
+                </li>
+              </ul>
+            </div>
+            <footer class="box white">
+              <h5>se termina...</h5>
+            </footer>
           </article>
           </section>
 
-          <!-- Motivaciones -->
-          <section>
-              <article>
-                  <header class="box">
-                      <h2>Motivaciones</h2>
-                      <h4><mark>¿Por qué un Radar?</mark></h4>
-                  </header>
-                  <div>
-                      <ul>
-                          <li data-step="boom"><mark>[+]</mark> Ausencia de plataforma interactiva</li>
-                          <br />
-                          <li data-step="boom"><mark>[+]</mark> Barreras para difundir eventos independientes</li>
-                          <br />
-                          <li data-step="boom"><mark>[+]</mark> Democratizar la información</li>
-                          <br />
-                          <li data-step="boom"><mark>[+]</mark> Redes de encuentro horizontal</li>
-                          <br />
-                          <li data-step="boom"><mark>[+]</mark> Trabajo colaborativo</li>
-                          <br />
-                          <li data-step="boom"><mark>[+]</mark> Alcance global</li>
-                      </ul>
-                  </div>
 
-                  <footer class="box white">
-                      <h4>Un radar que detecta movimiento cultural.</h2>
-                  </footer>
-              </article>
-          </section>
-
-          <!-- Equipo de desarrollo con Imágenes -->
-  		<section data-color="red" data-color="image">
-  			<article>
-  				<header class="box">
-                      <h2>Equipo</h2>
-                      <h4><mark>Tras bambalinas</mark></h4>
-                  </header>
-  				 <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Diseño Gráfico</h3></li>
-                          <br />
-                          <li data-step="zoom">
-  							<span class="column small">
-  								<img src="assets/image/tere.jpg" class="bordered size_200"/>
-  								<h5><mark>Teresa Sempere</mark></h5>
-  							</span>
-  							<span class="column small">
-  								<img src="assets/image/cl2.png" class="bordered size_200"/>
-  								<h5><mark>Colectivo Libre</mark></h5>
-  							</span>
-  						</li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>La magia...</h2>
-                      <h4>... hacen que todo se vea lindo.</h2>
-                  </footer>
-  			</article>
-  			<article>
-  				<header class="box">
-                      <h2>Equipo</h2>
-                      <h4><mark>Tras bambalinas</mark></h4>
-                  </header>
-  				 <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Desarrolladores</h3></li>
-                          <br />
-                          <li data-step="zoom">
-  							<span class="column small">
-  								<img src="assets/image/hackergotchi-elopio.png" class="bordered size_200"/>
-  								<h5><mark>Leo Arias</mark></h5>
-  							</span>
-  							<span class="column small">
-  								<img src="assets/image/ivan.jpg" class="bordered size_200"/>
-  								<h5><mark>Iván Qart</mark></h5>
-  							</span>
-  							<span class="column small">
-  								<img src="assets/image/cl2.png" class="bordered size_200"/>
-  								<h5><mark>Colectivo Libre</mark></h5>
-  							</span>
-  						</li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>Se entienden...</h2>
-                      <h4>... hablan su propio código.</h2>
-                  </footer>
-  			</article>
-  			<article>
-  				<header class="box">
-                      <h2>Equipo</h2>
-                      <h4><mark>Tras bambalinas</mark></h4>
-                  </header>
-  				 <div>
-                      <ul>
-                          <li data-step="zoom"><h3>Colaboradores</h3></li>
-                          <br />
-                          <li data-step="zoom">
-  							<span class="column small">
-  								<img src="assets/image/taringa.jpg" class="bordered size_200"/>
-  								<h5><mark>Taringa</mark></h5>
-  							</span>
-  							<span class="column small">
-  								<img src="assets/image/comunidad.png" class="bordered size_200"/>
-  								<h5><mark>CSL</mark></h5>
-  							</span>
-  						</li>
-                      </ul>
-                  </div>
-                  <footer class="box white">
-                      <h2>Todos...</h2>
-                      <h4>... somos parte del equipo.</h2>
-                  </footer>
-  			</article>
-  		</section>
-
-
-          <!-- Descripción del Proyecto -->
-          <section>
-              <article>
-                  <header class="box">
-                      <h2>Descripción</h2>
-                      <h4><mark>Manos a la obra</mark></h4>
-                  </header>
-                  <div>
-                      <ul>
-                          <li data-step="zoom">[ Plataforma Web 2.0 ]</li>
-                          <li data-step="zoom"><mark>[ Software Libre ]</mark></li>
-                          <li data-step="zoom">[ Eventos georreferenciados ]</li>
-                          <li data-step="zoom"><mark>[ Filtros por categoría ]</mark></li>
-                          <li data-step="zoom">[ Promoción de eventos gratuita ]</li>
-                          <li data-step="zoom"><mark>[ Feedback de eventos ]</mark></li>
-                          <li data-step="zoom">[ Verificación de eventos mediante denuncias ]</li>
-                          <li data-step="zoom"><mark>[ Interacción con redes sociales ]</mark></li>
-                          <li data-step="zoom">[ Extensión progresiva del alcance territorial ]</li>
-                          <li data-step="zoom"><mark>[ Banners publicitarios ]</mark></li>
-                      </ul>
-                  </div>
-
-                  <footer class="box white">
-                      <h2>que la cabeza está pensando...</h2>
-                      <h4>y pies volando.</h2>
-                  </footer>
-              </article>
-          </section>
-
-          <section>
-              <article data-size="middle">
-                  <blockquote>Estimular la industria cultural es darle a todos los actores las mismas oportunidades, ¿qué mejor forma de hacerlo utilizando una herramienta colaborativa y libre?</blockquote>
-              </article>
-          </section>
           <section>
               <article>
   				<h1><<mark>/Fin</mark>></h1>
-  				<h4>[ Muchas Gracias ]</h4>
+  				<h4>[ Gracias totales ]</h4>
               </article>
           </section>
       <script src="assets/javascript/QuoJS.js"></script>

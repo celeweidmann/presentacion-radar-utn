@@ -75,14 +75,24 @@ li.flecha {
 	position: absolute;
 	width: 100% !important;
 }
+.background-radar-funcionando{
+	background:url('../image/radar_console.jpg') no-repeat;
+	background-size: 100%;
+	height: 100%;
+	left: 0 !important;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	position: absolute;
+	width: 100% !important;
+}
 .background-cineclub{
-	background:url('../image/cine-america-5.png');
+	background:url('../image/cine-america-3.jpg');
 	height: 100%;
 	position: absolute;
 	width: 100%;
 }
-.background-radar-funcionando{
-	background:url('../image/radar_console.jpg') no-repeat;
+.background-cine{
+	background:url('../image/cine-america-4.jpg') no-repeat;
 	background-size: 100%;
 	height: 100%;
 	left: 0 !important;
@@ -162,7 +172,7 @@ li.flecha {
 		width: 100% !important;
 }
 .background-radar-registro{
-		background:url('../image/registro-r.png') no-repeat;
+		background:url('../image/radar-registro-rr.png') no-repeat;
 		background-size: 100%;
 		height: 100%;
 		left: 0 !important;
@@ -170,6 +180,36 @@ li.flecha {
 		margin-top: 0 !important;
 		position: absolute;
 		width: 100% !important;
+}
+.background-radar-usuarios{
+		background:url('../image/usuarios-listado-r.png') no-repeat;
+		background-size: 100%;
+		height: 100%;
+		left: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		position: absolute;
+		width: 100% !important;
+}
+.background-teatro{
+		background:url('../image/teatro-1.jpg') no-repeat;
+		background-size: 100%;
+		height: 100%;
+		left: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		position: absolute;
+		width: 100% !important;
+}
+.inapiwetrust{
+	background:url('../image/inapiwetrust-2.png') no-repeat;
+	background-size: 100%;
+	height: 100%;
+	left: 0 !important;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	position: absolute;
+	height: 100%;
 }
 .block-radar{
 	background-color: rgba(0, 0, 0, 0.4);
@@ -182,6 +222,17 @@ li.flecha {
 }
 .header-cine{
 	width: 100%;
+}
+
+.lateral-derecha{
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+.lateral-izquierda{
+	left: 0;
+	position: absolute;
+	top: 0;
 }
 .sin-techo-1{
 	position: absolute !important;
